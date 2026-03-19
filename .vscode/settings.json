@@ -1,0 +1,7 @@
+{
+	// The Kotlin language server (fwcd.kotlin) doesn’t understand Android/Gradle classpaths well,
+	// which can cause a large number of misleading "Unresolved reference" diagnostics.
+	// Keep the extension installed, but disable its language server/diagnostics to reduce noise.
+	"kotlin.languageServer.enabled": false,
+	"kotlin.diagnostics.enabled": false
+}

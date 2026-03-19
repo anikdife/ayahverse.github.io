@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TafseerDropdownAnimation">
+        <item name="android:windowEnterAnimation">@anim/tafseer_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/tafseer_popup_exit</item>
+    </style>
+
+</resources>

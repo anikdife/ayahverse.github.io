@@ -1,0 +1,6 @@
+Put your PNG logo here named exactly: global_menu_logo.png
+
+Path:
+app/src/main/assets/global_menu_logo.png
+
+The app will use it for the top/global menu button. If the file is missing, it falls back to the original calligraphy button.

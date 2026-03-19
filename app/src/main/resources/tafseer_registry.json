@@ -1,0 +1,82 @@
+[
+  {
+    "id": "169",
+    "name": "Ibn Kathir",
+    "author": "Hafiz Ibn Kathir",
+    "source": "Quran.com",
+    "lang": "en",
+    "baseUrl": "https://api.quran.com/api/v4/",
+    "endpointPattern": "quran/tafsirs/{id}?ayah_key={surah}:{ayah}",
+    "note": "The most widely recognized traditional commentary in English."
+  },
+  {
+    "id": "16",
+    "name": "Tafsir Al-Tabari",
+    "author": "Imam Al-Tabari",
+    "source": "Quran.com",
+    "lang": "ar",
+    "baseUrl": "https://api.quran.com/api/v4/",
+    "endpointPattern": "quran/tafsirs/{id}?ayah_key={surah}:{ayah}",
+    "note": "The comprehensive 'Mother of Tafseers' for deep scholarly research."
+  },
+  {
+    "id": "ar.jalalayn",
+    "name": "Al-Jalalayn",
+    "author": "Al-Mahalli & Al-Suyuti",
+    "source": "Al Quran Cloud",
+    "lang": "ar",
+    "baseUrl": "https://api.alquran.cloud/v1/",
+    "endpointPattern": "ayah/{surah}:{ayah}/{id}",
+    "note": "Famous for its extreme brevity; perfect for quick mobile reading."
+  },
+  {
+    "id": "ar.qurtubi",
+    "name": "Tafsir Al-Qurtubi",
+    "author": "Imam Al-Qurtubi",
+    "source": "Al Quran Cloud",
+    "lang": "ar",
+    "baseUrl": "https://api.alquran.cloud/v1/",
+    "endpointPattern": "ayah/{surah}:{ayah}/{id}",
+    "note": "Detailed analysis with a focus on Fiqh (Islamic Law)."
+  },
+  {
+    "id": "1",
+    "name": "Al-Muyassar",
+    "author": "King Fahd Complex",
+    "source": "Quran-Tafseer",
+    "lang": "ar",
+    "baseUrl": "http://api.quran-tafseer.com/",
+    "endpointPattern": "tafseer/{id}/{surah}/{ayah}",
+    "note": "Modern, simplified Arabic explanation for everyday readers."
+  },
+  {
+    "id": "english_rwwad",
+    "name": "English translation - Rowwad Translation Center",
+    "author": "Rowwad Translation Center",
+    "source": "QuranEnc",
+    "lang": "en",
+    "baseUrl": "https://quranenc.com/api/v1/",
+    "endpointPattern": "translation/aya/{id}/{surah}/{ayah}",
+    "note": "Valid QuranEnc English key (replaces invalid numeric id)."
+  },
+  {
+    "id": "93",
+    "name": "Tafsir Al-Saadi",
+    "author": "Sheikh As-Sa'di",
+    "source": "Quran.com",
+    "lang": "ar",
+    "baseUrl": "https://api.quran.com/api/v4/",
+    "endpointPattern": "quran/tafsirs/{id}?ayah_key={surah}:{ayah}",
+    "note": "Gentle, modern, and spiritually focused commentary."
+  },
+  {
+    "id": "en.maarif",
+    "name": "Maarif-ul-Quran",
+    "author": "Mufti Shafi Usmani",
+    "source": "Quran.com",
+    "lang": "en",
+    "baseUrl": "https://api.quran.com/api/v4/",
+    "endpointPattern": "quran/tafsirs/{id}?ayah_key={surah}:{ayah}",
+    "note": "Extremely popular for practical application to modern life."
+  }
+]

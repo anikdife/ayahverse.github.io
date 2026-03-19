@@ -1,0 +1,108 @@
+QURAN APP — USER GUIDE (CURRENT STAGE)
+
+Note:
+- This guide describes the features implemented so far.
+- Many more features coming soon
+
+
+1) GETTING STARTED
+
+1.1 App Start
+- When the app starts, it opens the Globe Menu first.
+- Use the Globe Menu to choose where you want to go.
+
+1.2 Where to Go
+- Tap "Qur’an" to open Qur’an reading and tools.
+- Tap "Hadith" to open Hadith books.
+
+Feature List (Getting Started)
+- Globe Menu (Home): Main navigation hub shown on startup.
+
+
+2) QUR’AN SECTION
+
+2.1 Browse Surahs
+- The Qur’an area provides a visual wheel/book interface.
+- Select a surah to view its details in the reading area.
+
+2.2 Ayah Cards
+- Ayah Cards show quick ayah content.
+- Use the on-screen controls to navigate through ayahs.
+
+2.3 Audio Playback
+- Play and stop recitation.
+- Select a reciter (when available).
+
+2.4 Translations
+- Choose a translation source from the translation selector.
+- The translation refreshes after you change the selection.
+
+2.5 Meaning Tools (Tabs)
+- Meaning tools are available while reading.
+- Current tabs include Linguistics and Tafsir.
+
+2.6 Tafsir Mode
+- Open tafsir for the active ayah.
+- Choose a tafsir source and read it in the focused view.
+
+Feature List (Qur’an)
+- Surah wheel + book view: Browse surahs and show surah info.
+- Ayah cards overlay: Quick display and navigation.
+- Audio controls: Play/stop and reciter selection.
+- Translation selector: Switch translation source.
+- Meaning tabs: Open Linguistics or Tafsir while reading.
+- Tafsir mode: Select a tafsir source and read it.
+
+
+3) HADITH SECTION
+
+3.1 Choosing a Hadith Book
+- From the Globe Menu, tap "Hadith".
+- Four Hadith books are displayed with their cover images.
+- Tap a book to enter Hadith Reading Mode.
+
+3.2 Hadith Reading Mode Layout
+Hadith Reading Mode is arranged into clear rows:
+- Navigation row: Previous / Next buttons + hadith number input.
+- Arabic pane: Hadith text is shown primarily in Arabic.
+- Language row: Choose translation language (default English).
+- Translation pane: Shows the translation in the selected language.
+- Bottom collapsed chip: Compact bar with two clickable sides.
+
+3.3 Navigating by Hadith Number
+- Type a number in the hadith number input and confirm (enter/search) to load it.
+- Use Previous/Next to move sequentially.
+
+3.4 Translation Language + Fallback
+- Choose a language from the dropdown (English is default).
+- If the Hadith API does not contain the selected language, the app uses a backend translation fallback.
+
+3.5 Bottom Collapsed Chip (Split Actions)
+The bottom chip is split into two clickable areas:
+- Left side (Book): Opens a popup showing other book titles; tap to switch books.
+- Right side (Topics): Opens the topics list for the current book.
+
+3.6 Topics (Supabase)
+- Topics are loaded from Supabase (hadith_topics), cached, and displayed in a scrollable popup.
+- Each topic item represents a hadith range.
+- Tap a topic to jump to the starting hadith of that topic’s range.
+
+Feature List (Hadith)
+- Hadith books grid with cover PNGs: Visual selection for the 4 books.
+- Arabic-first reading: Arabic shown as the primary text.
+- Translation language dropdown: Default English + selectable languages.
+- Backend translation fallback: Auto-translate when API lacks the chosen language.
+- Navigation controls: Prev/Next + direct number jump.
+- Book metadata: Displays chapter/hadith counts in the bottom chip.
+- Animated popups: iOS-like twist-to-flat open animation.
+- Topics from Supabase + caching: Loads topics and caches results for speed.
+- Topic navigation: Tap topic → jump to starting hadith.
+
+
+4) BRANDING / APP ICON
+
+4.1 Launcher Icon
+- The installed app uses the provided logo as the launcher icon.
+
+Feature List (Branding)
+- Launcher icon set to logo: The app icon on the device uses your logo.
